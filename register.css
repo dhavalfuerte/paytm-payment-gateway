@@ -1,0 +1,137 @@
+    p {
+        margin-bottom: 0px;
+        font-size: 15px;
+        color: #777;
+    }
+    
+    h2 {
+        line-height: 1.66;
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        color: #222;
+        font-family: 'Montserrat';
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    body {
+        font-size: 14px;
+        line-height: 1.8;
+        color: #222;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    }
+    
+    .container {
+        width: 650px;
+    }
+    
+    .signup-content {
+        background: #fff;
+        border-radius: 60px;
+        padding: 50px 85px;
+        width: 700px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        height: auto;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+        
+    }
+    
+    .form-input {
+        height: 50%;
+        width: 100%;
+        border: 2px solid #ebebeb;
+        border-radius: 5px;
+        padding: 17px 20px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: 500;
+        color: #222;
+    }
+
+    /*  example start  */
+
+    .form-input1 {
+        height: 50%;
+        width: 27%;
+        border: 2px solid #ebebeb;
+        border-radius: 5px;
+        padding: 17px 20px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: 500;
+        color: #222;
+    }
+
+    .form-input2 {
+        height: 50%;
+        width: 71%;
+        border: 2px solid #ebebeb;
+        border-radius: 5px;
+        padding: 17px 20px;
+        box-sizing: border-box;
+        font-size: 14px;
+        font-weight: 500;
+        color: #222;
+    }
+
+
+    /*  example end  */
+    
+    
+
+    .dropdown-submenu {
+        position: relative;
+    }
+    
+    .dropdown-submenu>.dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        border-radius: 0 6px 6px 6px;
+    }
+    
+    .dropdown-submenu:hover>.dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-submenu>a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #cccccc;
+        margin-top: 5px;
+        margin-right: -10px;
+    }
+    
+    .dropdown-submenu:hover>a:after {
+        border-left-color: #ffffff;
+    }
+    
+    .dropdown-submenu.pull-left {
+        float: none;
+    }
+    
+    .dropdown-submenu.pull-left>.dropdown-menu {
+        left: -100%;
+        margin-left: 10px;
+        -webkit-border-radius: 6px 0 6px 6px;
+        -moz-border-radius: 6px 0 6px 6px;
+        border-radius: 6px 0 6px 6px;
+    }
+ 
